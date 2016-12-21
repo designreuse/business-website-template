@@ -29,7 +29,7 @@ p {
   text-align:center;
   color: #ccc;
   font-size:30px;
-  fonr-weight: 400px;
+  font-weight: 400px;
   text-transform: uppercase;
 }
 
@@ -57,7 +57,7 @@ p {
 /*header*/
 
 .header {
-  background-image: url("../images/header-background1.png");
+  background-image: url("../images/headerbg-main.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -72,7 +72,7 @@ p {
 }
 
 .header-overlay {
-  background-color: rgba(31,31,31,0.75);
+  background-color: rgba(31,31,31,0.80);
 }
 
 .logo {
@@ -163,4 +163,46 @@ p {
 .about-company img {
   margin-top: 30px;
   margin-bottom:20px;
+}
+
+.choose-us-title h2 {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 37px;
+  position:relative;
+  padding-bottom: 35px;
+}
+
+.choose-us-item {
+  position: relative;
+  padding-bottom: 4px;
+  padding-left: 80px;
+}
+
+.choose-us-item div {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.choose-us-item div i {
+  font-size: 35px;
+  color: #129CF3;
+  tansition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.choose-us-item h3 {
+  color: #343434;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.choose-us-item p{
+  color: #727272;
+  font-size: 15px;
 }
