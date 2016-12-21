@@ -15,6 +15,45 @@ p {
   font-size: 14px;
 }
 
+
+
+/*generic styling */
+
+.section-title {
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+.section-title h2 {
+  position: relative;
+  text-align:center;
+  color: #ccc;
+  font-size:30px;
+  fonr-weight: 400px;
+  text-transform: uppercase;
+}
+
+.section-title h2:after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  width: 60px;
+  height: 1px;
+  background-color: #129CF3;
+  margin-left: -30px;
+}
+
+.section-title p {
+  color: #333;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 45px;
+}
+
+
 /*header*/
 
 .header {
@@ -111,4 +150,17 @@ p {
   font-size: 20px;
   padding-left:5px;
   color: #129CF3;
+}
+
+
+
+/*about us*/
+
+.choose-us-wrapper {
+  padding-top: 50px;
+}
+
+.about-company img {
+  margin-top: 30px;
+  margin-bottom:20px;
 }
