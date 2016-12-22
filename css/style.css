@@ -20,8 +20,8 @@ p {
 /*generic styling */
 
 .section-title {
-  padding-top: 90px;
-  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 40px;
 }
 
 .section-title h2 {
@@ -57,7 +57,7 @@ p {
 /*header*/
 
 .header {
-  background-image: url("../images/headerbg-main.png");
+  background-image: url("../images/main-background.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -72,11 +72,13 @@ p {
 }
 
 .header-overlay {
-  background-color: rgba(31,31,31,0.80);
+  background-color: rgba(31,31,31, 0.55);
 }
 
-.logo {
-  padding-bottom: 40px;
+.logo img{
+  max-width: 80%;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .header-text h1 {
@@ -84,7 +86,7 @@ p {
   font-size: 35px;
   line-height: 45px;
   font-weight: 300;
-  padding-top: 30px;
+  padding-top: 18px;
   text-transform: uppercase;
 }
 
@@ -96,8 +98,8 @@ p {
 }
 
 .header-btns {
-  margin-top: 90px;
-  margin-bottom: 50px;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 .btn-download,
@@ -132,7 +134,6 @@ p {
 {
   color: #A9ADB0;
   margin-left: 20px;
-  text-transform: uppercase;
   font-size:19px;
   font-weight: 500;
   background: transparent;
@@ -147,7 +148,7 @@ p {
 }
 
 .btn-tour i {
-  font-size: 20px;
+  font-size: 40px;
   padding-left:5px;
   color: #129CF3;
 }
@@ -157,12 +158,12 @@ p {
 /*about us*/
 
 .choose-us-wrapper {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .about-company img {
-  margin-top: 30px;
-  margin-bottom:20px;
+  max-width: 100%;
+  padding-bottom: 25px;
 }
 
 .choose-us-title h2 {
@@ -177,7 +178,7 @@ p {
 .choose-us-item {
   position: relative;
   padding-bottom: 4px;
-  padding-left: 80px;
+  padding-left: 60px;
 }
 
 .choose-us-item div {
@@ -187,7 +188,7 @@ p {
 }
 
 .choose-us-item div i {
-  font-size: 35px;
+  font-size: 28px;
   color: #129CF3;
   tansition: all 1s;
   -moz-transition: all 1s;
