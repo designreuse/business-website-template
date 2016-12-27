@@ -12,7 +12,31 @@
       <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-      <header class="header">
+      <header class="header" id="home">
+
+          <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#companyx-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+              </div>
+
+              <div class="collapse navbar-collapse" id="companyx-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#home" class="nav-item">Home</a></li>
+                  <li><a href="#about" class="nav-item">About</a></li>
+                  <li><a href="#features" class="nav-item">Feautures</a></li>
+                  <li><a href="#contact" class="nav-item">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
         <div class="header-overlay">
           <div class="container">
             <div class="row">
@@ -50,7 +74,7 @@
       </header>
 
       <section>
-        <div class="container">
+        <div class="container" id="about">
           <div class="row">
             <div class="col-md-12">
               <div class="section-title">
@@ -156,7 +180,7 @@
           </div>
         </div>
       </section>
-      <section class="contact-us">
+      <section class="contact-us" id="contact">
         <div class="container">
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
@@ -178,7 +202,7 @@
                   <input type="text" class="form-control" id="subject" placeholder="Subject">
                 </div>
                 <div class="col-md-8">
-                  <textarea  id="message" class="form-control" cols="30" rows="10"></textarea>
+                  <textarea  id="message" class="form-control" cols="30" rows="10" placeholder="message text"></textarea>
                   <button type="submit" class="btn btn-default submit-btn">Submit</button>
                 </div>
               </div>
@@ -200,7 +224,22 @@
 
         </div>
       </section>
-
+      <section class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div id="copyright">
+                <p>copyright &copy; 2016 <a href="#">Company X</a></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="scroll-top">
+                <a href="home"><i class="fa fa-angle-up"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
 
