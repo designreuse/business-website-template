@@ -52,3 +52,29 @@ $(document).ready(function(){
     }
   });
 });
+
+$(document).ready(function(){
+  'use strict';
+  $('.navbar-nav li a').click(function(){
+    ('.navbar-nav li a').parent().removeClass("active");
+    this.parent().removeClass("active");
+  });
+});
+
+$(document).ready(function(){
+  console.log("hightlight")
+  'use strict';
+  $(window).scroll(function(){
+    $("section").each(function(){
+      'use strict';
+      var sec = $(this).attr("id");
+      var height = $(this).outerHeight();
+      var grttop = $(this).offset().top - 70;
+    if ($(window).scrollTop() > grttop && $(window).scrollTop() < grttop + height) {
+        $(".navbar-nav li a[href='#"+ sec +"']").parent().addClass("active");
+        } else {
+        $(".navbar-nav li a[href='#"+ sec +"']").parent().removeClass("active");
+      }
+    });
+  });
+});
