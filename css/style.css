@@ -130,11 +130,11 @@ p {
   background-color: rgba(31,31,31, 0.55);
 }
 
-.logo img{
+/*.logo img{
   max-width: 80%;
   padding-top: 10px;
   padding-bottom: 20px;
-}
+}*/
 
 .header-text h1 {
   color: white;
@@ -154,7 +154,7 @@ p {
 
 .header-btns {
   margin-top: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .btn-download,
