@@ -32,6 +32,7 @@
                 <ul class="nav navbar-nav navbar-right">
                   <li><a href="#home" class="nav-item">Home</a></li>
                   <li><a href="#about" class="nav-item">About</a></li>
+                  <li><a href="#photos" class="nav-item">Photos</a></li>
                   <li><a href="#services" class="nav-item">Services</a></li>
                   <li><a href="#contact" class="nav-item">Contact</a></li>
                 </ul>
@@ -55,7 +56,7 @@
                   <p>Include another line below like this. </p>
                 </div>
                 <div class="header-btns text-center">
-                  <a class="btn btn-download" href="#">Learn More</a>
+                  <a class="btn btn-download" id="scroll-to-top" href="#services">Learn More</a>
                 </div>
               </div>
               <div class="col-md-1"></div>
@@ -66,7 +67,7 @@
               </div>
               <div class="col-md-12 text-center">
                 <div class="header-btns">
-                  <a class="btn btn-tour text-center" href="#"><span><br><i class="fa fa-chevron-down"></i></span>
+                  <a class="btn btn-tour text-center" id="scroll-to-top" href="#about"><span><br><i class="fa fa-chevron-down"></i></span>
                   </a>
                 </div>
               </div>
@@ -125,7 +126,7 @@
             </div>
           </div>
       </section>
-      <section class="photos">
+      <section class="photos" id="photos">
         <div class="container">
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
@@ -161,36 +162,47 @@
       <section class="social-media">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-4">
               <div class="social-media-title">
                 <h2>Check us Out</h2>
                 <p>Lorem ipsum dolor sit amet, nec cras nec cursus, id eu felis, ut ultricies et.
                    Augue ac cursus arcu dolor, vel litora sociis non vestibulud</p>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-8 icons">
               <div class="row">
-                <a href="#">
-                  <div class="col-md-4 no-padding">
+                <div class="col-xs-6 col-sm-3">
+                  <a href="#">
                     <div class="social-media-item">
                       <i class="fa fa-facebook-official"></i>
                     </div>
-                  </div>
-                </a>
-                <a href="#">
-                  <div class="col-md-4 no-padding">
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                  <a href="#">
                     <div class="social-media-item">
                       <i class="fa fa-twitter"></i>
                     </div>
-                  </div>
-                </a>
-                <a href="#">
-                  <div class="col-md-4 no-padding">
+                  </a>
+                </div>
+
+                <!-- Add the extra clearfix for only the required viewport -->
+                <div class="clearfix visible-xs-block"></div>
+
+                <div class="col-xs-6 col-sm-3">
+                  <a href="#">
                     <div class="social-media-item">
                       <i class="fa fa-instagram"></i>
                     </div>
-                  </div>
-                </a>
+                  </a>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                  <a href="#">
+                    <div class="social-media-item">
+                      <i class="fa fa-google"></i>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -376,11 +388,9 @@
             <div class="col-md-6">
               <div id="copyright">
                 <p>copyright &copy; 2016 <a href="#">Company X</a></p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="scroll-top">
-                <a href="home" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
+                <div class="scroll-top">
+                  <a href="#home" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
+                </div>
               </div>
             </div>
           </div>
