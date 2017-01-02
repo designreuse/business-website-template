@@ -83,8 +83,9 @@ $(document).ready(function(){
   $('.bxslider').bxSlider({
     slideWidth: 292.5,
     auto:true,
+    adaptiveHeight: true,
     minSlide:1,
     maxSlides:3,
-    slideMargin: 50
+    slideMargin: 100
   });
 });

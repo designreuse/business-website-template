@@ -123,6 +123,7 @@ p {
 }
 
 .header-main-image img{
+  padding-top: 30px;
   width:100%;
 }
 
@@ -132,7 +133,11 @@ p {
 
 .logo img{
   max-width: 80%;
-  padding-top: 10px;
+  padding-top: 80px;
+}
+
+.header-text {
+  padding-bottom: 20px;
 }
 
 .header-text h1 {
@@ -152,8 +157,8 @@ p {
 }
 
 .header-btns {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .btn-download,
@@ -163,12 +168,11 @@ p {
 {
   background:transparent;
   border-color: #3498db;
-  padding-bottom: 10px;
+  padding-bottom: 6px;
   padding-left: 30px;
   padding-right:30px;
   font-size: 19px;
   text-transform: uppercase;
-  /*border-radius:3px;*/
   transition: all .5s;
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
@@ -196,13 +200,8 @@ p {
   -o-transition: all .5s;
 }
 
-.button-tour {
-  color: white;
-}
-
 .btn-tour i {
-  font-size: 40px;
-  padding-left:5px;
+  font-size: 25px;
   color: #129CF3;
 }
 
@@ -266,18 +265,28 @@ p {
   font-size: 15px;
 }
 
+/*photos*/
+
+.photos {
+  background-image: url("../images/gradient-background.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-position: 50% 50%;
+}
+
+.bxslider img {
+  display: block;
+  margin: 0 auto;
+}
+
 /*testimonial*/
 
 .testimonial {
   background-color: #3498db;
-  /*background-image: url("../images/testimonial-background.png");*/
-  /*background-attachment: fixed;
-  background-repeat: no-repeat;*/
-  /*background-size: cover;*/
-  /*-moz-background-size: cover;*/
-  /*-o-background-size: cover;*/
-  /*-webkit-background-size: cover;*/
-  /*background-position: 50% 50%;*/
   padding-top: 80px;
   padding-bottom: 80px;
 }
