@@ -81,6 +81,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $('.bxslider').bxSlider({
+    captions: true,
     slideWidth: 330,
     auto:true,
     adaptiveHeight: true,

@@ -272,6 +272,10 @@ p {
 
 /*photos*/
 
+.photo-slider {
+  padding-bottom: 80px;
+}
+
 .photos {
   background-image: url("../images/gradient-background.png");
   background-attachment: fixed;
@@ -291,8 +295,45 @@ p {
 }
 
 .bx-pager.bx-default-pager {
-  margin-bottom: 20px;
+  margin-bottom: -20px;
 }
+
+/*images */
+
+.images {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-top: 1px solid gray;
+  background-image: url("../images/gradient-background.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-position: 50% 50%;
+}
+
+.carousel-indicators {
+  bottom: -50px;
+}
+
+.carousel-inner .item img {
+  max-width: 40%;
+  margin: 0 auto;
+  padding: 3px;
+}
+
+.item-caption p {
+  padding-top: 10px;
+  text-align: center;
+  color: #2c3e50;
+  font-size: 17px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+
 
 /*testimonial*/
 
@@ -302,22 +343,18 @@ p {
   padding-bottom: 80px;
 }
 
-.testimonial-overlay {
-  /*background-color: rgba(31, 31, 31)*/
-  /*padding-top: 80px;
-  padding-bottom: 80px;*/
-}
+/*.testimonial-overlay {
+  background-color: rgba(31, 31, 31)
+  padding-top: 80px;
+  padding-bottom: 80px;
+}*/
 
-.carousel-indicators {
-  bottom: -50px;
-}
-
-.carousel-inner .item img {
+/*.carousel-inner .item img {
   max-width: 30%;
   border: 2px solid #129CF3;
   border-radius: 15%;
   padding: 3px;
-}
+}*/
 
 .testimonial-caption h2 {
   color: #ecf0f1;
@@ -343,7 +380,7 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding-top: 25px;
-}
+}*/
 
 /*services*/
 .service-image img {

@@ -15,7 +15,7 @@
   }
 
   .carousel-inner .item img {
-    max-width: 65% !important;
+    max-width: 100% !important;
     border: 2px solid #129CF3;
     border-radius: 15%;
     padding: 3px;
