@@ -82,7 +82,7 @@ $(document).ready(function(){
 $(document).ready(function(){
   $('.bxslider').bxSlider({
     captions: true,
-    slideWidth: 330,
+    slideWidth: 320,
     auto:true,
     adaptiveHeight: true,
     minSlide:1,

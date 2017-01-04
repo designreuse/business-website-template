@@ -226,11 +226,12 @@ p {
 
 .choose-us-title h2 {
   text-transform: uppercase;
-  font-weight: 800;
-  font-size: 30px;
+  font-weight: 500;
+  font-size: 25px;
   line-height: 37px;
   text-align: center;
   padding-bottom: 35px;
+  color: #7f8c8d;
 }
 
 .choose-us-desc {
@@ -270,40 +271,11 @@ p {
   font-size: 15px;
 }
 
-/*photos*/
-
-.photo-slider {
-  padding-bottom: 80px;
-}
-
-.photos {
-  background-image: url("../images/gradient-background.png");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-position: 50% 50%;
-}
-
-.bxslider img {
-  display: block;
-  margin: 0 auto;
-  margin-top: 35px;
-  margin-bottom: 50px;
-}
-
-.bx-pager.bx-default-pager {
-  margin-bottom: -20px;
-}
-
 /*images */
 
 .images {
   padding-top: 80px;
   padding-bottom: 80px;
-  border-top: 1px solid gray;
   background-image: url("../images/gradient-background.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -318,7 +290,18 @@ p {
   bottom: -50px;
 }
 
-.carousel-inner .item img {
+.carousel-indicators li {
+  border-color: #2980b9;
+  background-color: transparent;
+  margin-right: 6px;
+}
+
+.carousel-indicators .active {
+  background-color: #2980b9;
+  margin-right: 6px;
+}
+
+.images .carousel-inner .item img {
   max-width: 40%;
   margin: 0 auto;
   padding: 3px;
@@ -327,12 +310,11 @@ p {
 .item-caption p {
   padding-top: 10px;
   text-align: center;
-  color: #2c3e50;
+  color: #7f8c8d;
   font-size: 17px;
   margin-top: 25px;
   margin-bottom: 10px;
 }
-
 
 
 /*testimonial*/
@@ -349,12 +331,11 @@ p {
   padding-bottom: 80px;
 }*/
 
-/*.carousel-inner .item img {
+.testimonial .carousel-inner .item img {
   max-width: 30%;
-  border: 2px solid #129CF3;
   border-radius: 15%;
   padding: 3px;
-}*/
+}
 
 .testimonial-caption h2 {
   color: #ecf0f1;
@@ -380,7 +361,18 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding-top: 25px;
-}*/
+}
+
+#carousel-testimonial .carousel-indicators li {
+  border-color: #fff;
+  background-color: transparent;
+  margin-right: 6px;
+}
+
+#carousel-testimonial .carousel-indicators .active {
+  background-color: #fff;
+  margin-right: 6px;
+}
 
 /*services*/
 .service-image img {
@@ -513,7 +505,6 @@ p {
 }
 
 
-
 /*contact us*/
 .contact-us {
   background-color: ;
@@ -575,14 +566,14 @@ p {
 
 .social-icons ul {
   margin: 0;
-  padding-right: 15px;
+  padding-right: 10px;
   text-align: center;
 }
 
 .social-icons ul li {
   list-style-type: none;
   display: inline;
-  padding-left: 20px;
+  padding-left: 15px;
 }
 
 .social-icons ul li a {
@@ -591,9 +582,9 @@ p {
    text-align: center;
    border: 1px solid #3498db;
    border-radius: 3px;
-   width: 70px;
-   height: 70px;
-   line-height: 70px;
+   width: 55px;
+   height: 55px;
+   line-height: 55px;
    color: #3498db;
 
 }
@@ -605,7 +596,7 @@ p {
 }
 
 .social-icons ul li a i {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .footer {
