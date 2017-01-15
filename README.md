@@ -5,7 +5,7 @@
 [Visit The Demo here.](http://business-website-template.herokuapp.com/index.html/)
 
 
-[![Screencast of website]](https://youtu.be/G5oYp2Tv0sU)
+[Screencast of website](https://youtu.be/G5oYp2Tv0sU)
 
 
 
