@@ -2,7 +2,7 @@
 
 ### An HTML5, CSS3, Javascript/JQuery &amp; Bootstrap template for a modern business website
 
-[Visit The Demo here.](http://business-website-template.herokuapp.com/index.html/)
+[Visit The Demo here.](https://business-website-template.herokuapp.com/index.html)
 
 ***
 
