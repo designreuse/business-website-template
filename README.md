@@ -4,20 +4,14 @@
 
 [Visit The Demo here.](http://business-website-template.herokuapp.com/index.html/)
 
+***
 
-[Screencast of website](https://youtu.be/G5oYp2Tv0sU)
-
-
+![alt text](images/screencast2.gif "screencast")
 
 
 Sections:
 ```
   Home, About, Gallery, Services, Contact, testimonials & social links
-```
-
-Images:
-```
-  Default images throughout the app can be easily substituted with any images you choose 
 ```
 
 bootstrap sliders:
@@ -27,5 +21,5 @@ bootstrap sliders:
 
 NavBar
 ```
-JQuery scrolling, semi-tansparent, hiding, high-lighing
+JQuery auto scrolling, semi-tansparent, hiding, highlighing
 ```
